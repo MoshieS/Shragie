@@ -1,0 +1,74 @@
+.styletwo{
+  display: inline-block;
+  color: cyan;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Indie Flower', cursive;
+  width: 80%
+}
+
+.kishka{
+  background-color: #022e57;
+}
+
+.white{
+color: cyan;
+text-align: center;
+font-size: 40px;
+font-family: 'Indie Flower', cursive;
+font-weight: lighter;
+}
+
+.middle{
+  text-align: center;
+}
+
+.normal{
+color: cyan;
+text-align: center;
+font-size: 40px;
+font-family: 'Indie Flower', cursive;
+text-decoration: none;
+font-weight: bold;
+
+}
+
+.headerButtons{
+margin-left: 23%;
+color: white;
+font-size: 40px;
+font-weight: bold;
+text-align: center;
+
+}
+
+.headerLinks{
+text-decoration: none;
+color: white;
+padding: 15px;
+margin: 1px;
+border-radius: 10px 10px 28px 28px;
+background-color: black;
+font-family: 'Rock Salt', cursive;
+
+}
+
+.mainpic{
+  display: inline-block;
+  margin-left: 30px;
+border-radius: 100%;
+display: inline;
+text-align: left;
+width: 100px;
+height: 100px;
+margin-top: 40px;}
+
+.inlineblock{
+  display: inline-block;
+
+}
+
+.inlineblock2{
+  display: inline-block;
+
+}
