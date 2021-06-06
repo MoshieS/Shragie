@@ -8,14 +8,14 @@
 }
 
 .kishka{
-  background-color: #022e57;
+  background-color: #00167B;
 }
 
-.white{
+.white1{
 color: cyan;
 text-align: center;
 font-size: 40px;
-font-family: 'Indie Flower', cursive;
+font-family: 'indie flower', cursive;
 font-weight: lighter;
 }
 
@@ -26,7 +26,7 @@ font-weight: lighter;
 .normal{
 color: cyan;
 text-align: center;
-font-size: 40px;
+font-size: 30px;
 font-family: 'Indie Flower', cursive;
 text-decoration: none;
 font-weight: bold;
@@ -71,4 +71,23 @@ margin-top: 40px;}
 .inlineblock2{
   display: inline-block;
 
+}
+
+.newfont{
+  font-family: 'indie flower',cursive;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+}
+.title{
+font-family: 'indie flower',cursive;
+font-size: 35px;
+color: cyan;
+text-align: center;
+font-weight: bold;
+
+}
+
+.email{
+text-align: center;
 }
