@@ -1,96 +1,111 @@
-<html>
-<head>
-  <title>S&H PHOTOGROPHY</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+$carousel-control-transition:        opacity 15s ease;
 
-    <link rel="stylesheet" href="sr.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+.styletwo{
+  display: inline-block;
+  color: cyan;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Indie Flower', cursive;
+  width: 80%
+}
 
-<link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+.kishka{
+  background-color: #060930;
+}
+
+.white1{
+color: cyan;
+text-align: center;
+font-size: 40px;
+font-family: 'indie flower', cursive;
+font-weight: lighter;
+}
+
+.middle{
+  text-align: center;
+}
+
+.normal{
+color: cyan;
+text-align: center;
+font-size: 30px;
+font-family: 'Indie Flower', cursive;
+text-decoration: none;
+font-weight: bold;
+
+}
+
+.headerButtons{
+margin-left: 23%;
+color: white;
+font-size: 40px;
+font-weight: bold;
+text-align: center;
+
+}
+
+.headerLinks{
+text-decoration: none;
+color: white;
+padding: 15px;
+margin: 1px;
+border-radius: 10px 10px 28px 28px;
+background-color: black;
+font-family: 'Rock Salt', cursive;
+
+}
+
+.mainpic{
+  display: inline-block;
+  margin-left: 30px;
+border-radius: 100%;
+display: inline;
+text-align: left;
+width: 100px;
+height: 100px;
+margin-top: 40px;}
+
+.inlineblock{
+  display: inline-block;
+
+}
+
+.inlineblock2{
+  display: inline-block;
+
+}
+
+.newfont{
+  font-family: 'indie flower',cursive;
+  font-weight: bold;
+  font-size: 10px;
+  text-decoration: none;
 
 
-</head>
+}
+.title{
+font-family: 'indie flower',cursive;
+font-size: 35px;
+color: cyan;
+text-align: center;
+font-weight: bold;
 
-<body class="kishka">
+}
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="newfont" href="#"> <img class="radius" src="data:image/png;base64,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" alt="blade.jpg"></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">about</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-  <h3 class="title">S&H PHOTOGROPHY </h3>
+.email{
+text-align: center;
+}
+#carouselExampleSlidesOnly{
+  margin: 30px 500px 30px 500px;
+}
+.carousel-item{
+  transition: transform 10s ease, opacity 0s ease-out
+}
+.radius{
+  border-radius: 500px 500px 500px 500px;
+ width: 40px;
+ height: 40px;
+}
+.navbar-nav{
 
-  <!-- <header>
-    <div class="inlineblock">
-
-
-      <img class="mainpic ib" src="data:image/png;base64,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" alt="picture" height="100"  width="100"/>
-
-  </div>
-    <div class="headerButtons inlineblock2">
-      <span class="headerLinks"> <a class="headerLinks" href="Index.html">Home</a> </span>
-      <span class="headerLinks"> <a class="headerLinks" href="Contact.html">Contact Us</a> </span>
-      <span class="headerLinks"> <a class="headerLinks" href="about.html">About Us</a> </span>
-
-    </div>
-  </header> -->
-<section>
-
-
-  <h1 class="normal"><a class="normal"  href="https://www.shutterstock.com/explore/parks-and-outdoors-0521?kw=stock%20images&c3apidt=p63990150377&gclid=Cj0KCQjw78yFBhCZARIsAOxgSx1dzcxDWguahnZ8aSkSyb177yhHbAUWzICh-ZnG8CH4EHdL77dahi0aAqRKEALw_wcB&gclsrc=aw.ds"<a href ="https://www.google.com/"> my official website </a
-  ><h1/>
-
-
-
-</section>
-
-<section >
-  <h3 class="white1">get started</h3>
-  <form >
-    <div class="email">
-      <br>
-        <input placeholder="Enter your email" type="email">
-    </div>
-
-
-  </form>
-</section>
-<section class="imgCar">
-  <div id="carouselExampleSlidesOnly" class="roll slide" data-bs-interval="200" carousel-control-transition="opacity 5s ease"
- data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="IMG1.jpg"  class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="IMG2.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="IMG4.jpg" class="d-block w-100" alt="...">
-    </div>
-  </div>
-</div>
-</section>
-
-</body>
-
-</html>
+}
