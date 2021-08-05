@@ -1,3 +1,5 @@
+$carousel-control-transition:        opacity 15s ease;
+
 .styletwo{
   display: inline-block;
   color: cyan;
@@ -87,6 +89,8 @@ font-size: 35px;
 color: cyan;
 text-align: center;
 font-weight: bold;
+padding-bottom: 100px;
+padding-top: 20px;
 
 }
 
@@ -106,4 +110,50 @@ text-align: center;
 }
 .navbar-nav{
 
+}
+
+.about-background{
+background-color: #00238c;
+color: cyan;
+padding: 80px;
+font-family: 'Rock Salt', cursive;
+font-weight: bolder;
+text-align: center;
+position: relative;
+top: 0;
+left: 0;
+color: cyan;
+
+}
+.quote1{
+  position: relative;
+
+  bottom: 100px;
+z-index: 0;
+color: black;
+font-size: 200px;
+}
+.quote2{
+
+}
+.opacity{
+  opacity: 30%;
+  /* position: relative; */
+
+
+}
+.container {
+  position: relative;
+  text-align: center;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+color: #0dffcf;
+}
+
+.aboutbackround{
+  text-decoration:  #0dffcf
 }
